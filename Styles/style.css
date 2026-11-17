@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-100-italic.woff2');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-100-normal.woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-200-italic.woff2');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-200-normal.woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-300-italic.woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-300-italic.woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-400-italic.woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-400-normal.woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-500-italic.woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-500-normal.woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-600-italic.woff2');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-600-normal.woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-700-italic.woff2');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-700-normal.woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-800-italic.woff2');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper-Hewitt';
+    src: url('Fonts/cooper-hewitt/cooper-hewitt-latin-800-normal.woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  font-family: 'Cooper-Hewitt', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #decade;
+  color: #350635;
+}
+h1, h2, h3 {
+  font-family: 'Cooper-Hewitt', Arial, sans-serif;
+  font-weight: 800;
+}
+
+.portrait-picture{
+    width: 200px;
+    display: block; margin: 0 auto;
+}
+
+.maintenance-message{
+    font-weight: 300;
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+}
+.maintenance-heading{
+    font-weight: 700;
+    text-align: center;
+}
+        
+.useless-button {
+    background-color: #a070cfe0;
+    color: #cedce9;
+    
+    border: none;
+    border-radius: 4px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+    transition: box-shadow 2s;
+    vertical-align: top;
+    display: block; margin: 0 auto;
+}
+.useless-button:hover{
+    opacity: 0.7;
+    box-shadow: 5px 5px 1px #350635;
+}
+.useless-button:active{
+    background-color: rgb(240, 241, 255);
+    border: 1px;
+    border-color: #350635;
+    opacity: 1;
+    color: #350635;
+}
